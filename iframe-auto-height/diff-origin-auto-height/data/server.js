@@ -2,8 +2,8 @@ var express = require('express');
 var path = require('path')
 var app = express();
  
-app.get('/test2.html', function (req, res) {
-   res.sendFile(path.resolve(__dirname,  './www/test2.html'));
+app.get('/b.html', function (req, res) {
+   res.sendFile(path.resolve(__dirname,  './www/b.html'));
 })
 
 const port = 8088;
