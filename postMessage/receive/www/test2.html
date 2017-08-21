@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>test2</title>
+</head>
+<body>
+  <h2>test2页面</h2>
+  <script>
+    window.addEventListener('message', function (e) {
+      console.log( e.origin ,'传递来的数据：',e.data);
+      console.log();
+    }, false);  
+  </script>
+</body>
+</html>
