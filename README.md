@@ -1,5 +1,4 @@
-跨域总结
-
+跨域
 npm install express --save
 
 node server.js
